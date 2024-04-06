@@ -19,4 +19,9 @@ public class Mammal {
 		this.energyLevel = energyLevel;
 	}
 	
+	public void changeEnergy(int energy) {
+		int newEnergy = this.getEnergyLevel()+(energy);
+		this.setEnergyLevel(newEnergy);
+	}
+	
 }
